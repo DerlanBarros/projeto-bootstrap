@@ -1,14 +1,21 @@
 body{
-    font: 20px Arial serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar{
     background-color: #45ca50;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
 
 .quem-somos{
-    background-color: #7B68EE;
+    background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
+}
+
+.img-qs{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
 }
 
 .margin{
@@ -18,4 +25,13 @@ body{
 
 .parceiros{
     background-color: #0099ff;
+}
+
+.servicos{
+    background-color: #ffffff;
+}
+
+.bg-footer{
+    background-color: black;
+    color: #ffffff;
 }
